@@ -1,0 +1,11 @@
+.card{
+		transition:all 0.3s;
+	}
+	.card:hover{
+		transform:scale(0.95);
+	
+	}
+	
+	.annimation2:hover{
+		font-size:40px;
+	}

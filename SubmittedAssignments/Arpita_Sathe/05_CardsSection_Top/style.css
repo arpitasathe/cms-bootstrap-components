@@ -1,0 +1,21 @@
+.card{
+		
+	}
+	.card:hover{
+	  border: 0px solid black;
+	  box-shadow: 0 0 5px black;
+
+		
+
+	
+	}
+	
+	
+	.btn:hover{
+		background-color:brown;
+		color:white;
+	}
+	.cursive-text {
+      font-family: Brush Script MT;
+	  font-size:50px;
+    }

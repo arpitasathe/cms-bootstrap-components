@@ -1,0 +1,65 @@
+.container {
+    background-color: #0F0F0F;
+}
+
+.card {
+    background-color: #0F0F0F;
+    border: 0.0009mm solid whitesmoke;
+    color: white;
+}
+
+.btn {
+    
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 0.3s; /* Add transition for background color */
+}
+
+.btn::before,
+.btn::after {
+	background: rgb(239, 111, 53);
+    background: linear-gradient(236deg, rgba(239, 111, 53, 1) 0%, rgba(231, 46, 37, 1) 43%, rgba(231, 41, 36, 1) 73%, rgba(230, 34, 34, 1) 100%);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0; /* Initially, set width to 0 */
+    height: 100%;
+    
+    transition: all 0.3s;
+	opacity:0.9;
+	
+}
+
+.btn::before {
+    left: 50%; /* Start from the middle */
+	
+}
+
+.btn::after {
+    right: 50%; /* Start from the middle */
+}
+
+.btn:hover::before,
+.btn:hover::after {
+    width: 50%; /* Expand to both sides on hover */
+	
+}
+
+.btn:hover::before {
+    left: 0; /* Move to the left */
+}
+
+.btn:hover::after {
+    right: 0; /* Move to the right */
+}
+
+
+

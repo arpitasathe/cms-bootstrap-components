@@ -1,0 +1,46 @@
+.info{
+	position absolute;
+	margin-top:30mm;
+	
+}
+.card{position:relative;
+
+}
+.card:hover{
+	  border: 1px solid white;
+	  box-shadow: 0 0 5px black;
+
+		
+
+	
+	}
+img {
+  
+  
+   /* Animation */
+  width: 50%;
+  height: 50%;
+  border:1px solid white;
+    
+	transform-origin: 50% 65%;
+    transition: all .8s ease-in;
+	
+  
+}
+img:after{
+	content:"";
+	width:50%;
+	height:50%;
+	position absolute;
+	transition:o.5s all;
+	transform:scale(0);
+}
+
+img:hover {
+  transform: scale(1.14); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  
+  
+}
+.container{
+	background-color:#F6F5F2;
+}
